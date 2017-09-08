@@ -79,7 +79,7 @@ def still(points, glom, filename):
     buildfig(points, glom)
     filepath = path + str(filename)
     plt.savefig(filepath)
-    print("Saved still as {}.png at time: {:.3f}".format(filepath,t_elapsed()))
+    print("Saved still {}.png at time: {:.3f}".format(filepath,t_elapsed()))
     plt.close()
 
 # Funtions for rendering the board
