@@ -82,7 +82,7 @@ def still(points, glom, filename):
     print("Saved still {}.png at time: {:.3f}".format(filepath,t_elapsed()))
     plt.close()
 
-# Funtions for rendering the board
+# Functions for rendering the board
 def makematrix(board):
     newboard = np.zeros(bounds).astype(int)
     for cell in board:
