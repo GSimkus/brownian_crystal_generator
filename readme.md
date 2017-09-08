@@ -1,4 +1,4 @@
-## About:
+# About:
 A diffusion-limited aggregate script written in python as a personal project in complexity science. In addition to the serious applications in complexity and systems science it's good for making funky "brownian crystals" (aka DLA clusters) and also by using the "animate" toggle in the parameters you can watch the dots move in real time (actually significantly less quickly than not animating).
 
 Uses MatPlotLib to render a board of particles "`points`", which are stored as sets of tuples of coordinates (rather than storing a (sparse) matrix).
@@ -8,7 +8,7 @@ During the run, each new addition to the aggregate/agglomeration or "`glom`" is 
 The neighbors function lists the cells considered adjacent to a particle, and thus dictates the movement properties of a particle.
 
 
-# Fun settings
+## Fun settings
 "snow"
 - animate set to True (or 1)
 - `cmap = colors.ListedColormap([[0,0,0.2], [1,1,1], [0.7,0.9,1]])`
