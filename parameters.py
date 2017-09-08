@@ -2,6 +2,8 @@ from ast import literal_eval
 from matplotlib import animation, rc, colors
 
 # Constants and run parameters
+continue_previous_run = False
+prev_run = "2017.09.07.17.42"
 
 if not continue_previous_run:
     startingglom = {(539, 959), (540, 959), (539, 960), (540,960)}
