@@ -1,7 +1,7 @@
 # About:
 A diffusion-limited aggregate script where particles undergo a random walk until they collide with an aggregate whereupon they are added to the "agg".
 
-![A typical crystal](<insert link here>)
+![A typical crystal growth](https://i.imgflip.com/1wihh5.gif)
 
 I wrote this in python as a personal project in particle simulation complexity science. In addition to the serious applications (models like this are used in simulation of chemical reactions, plant and coral growth, state changes in materials, biophysics, *etc.*) it's also good for making funky "brownian crystals" (aka "DLA clusters") - one can also use the `animate` toggle in `parameters.py` to watch the dots move in real time (note: since the time between frames is locked here, you will want to boost the number of simultaneously simulated particles (`simpoints`), which is both prettier to watch and also is set fairly low in the current parameters file, since using fewer points allows for many more frames to be run in the same time period especially on weaker hardware).
 
