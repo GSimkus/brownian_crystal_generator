@@ -26,12 +26,12 @@ if __name__ == '__main__':
 
     # Taking a still of the starting conditions
     still(particles, agg, "0")
-    snagframe = next(configure.frames_to_snag)
     # Check to see if it is supposed to animate, if so call the render func
     if configure.animate:
         render(particles, agg)
     # If no animation, then start a while loop that calls the advance func
     else:
+        snagframe = next(configure.frames_to_snag)
         while not terminate_condition(framecount, agg):
             particles, agg = advance(particles, agg, framecount)
             framecount += 1

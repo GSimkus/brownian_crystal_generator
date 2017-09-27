@@ -1,4 +1,5 @@
 import configparser
+import math
 from itertools import count
 from ast import literal_eval
 from matplotlib import colors
